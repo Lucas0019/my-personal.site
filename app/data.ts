@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: "Keyrus",
-    title: "Front-end Developer Pleno",
+    title: "Frontend Developer Pleno",
     start: "2024",
     end: "Present",
     link: "https://olucasxavier.vercel.app/",
@@ -58,7 +58,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: "Codeby, Keyrus Company",
-    title: "Front-end Developer Pleno",
+    title: "Frontend Developer Pleno",
     start: "2022",
     end: "2024",
     link: "https://olucasxavier.vercel.app/",
@@ -66,7 +66,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: "Codeby",
-    title: "Front-end Developer",
+    title: "Frontend Developer",
     start: "2021",
     end: "2022",
     link: "https://olucasxavier.vercel.app/",
@@ -76,31 +76,10 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: "Exploring the Intersection of Design, AI, and Design Engineering",
-    description: "How AI is changing the way we design",
-    link: "/blog/exploring-the-intersection-of-design-ai-and-design-engineering",
+    title: "Piloto",
+    description: "O começo de uma nova jornada, explorando o desconhecido.",
+    link: "/blog/piloto",
     uid: "blog-1",
-  },
-  {
-    title: "Why I left my job to start my own company",
-    description:
-      "A deep dive into my decision to leave my job and start my own company",
-    link: "/blog/exploring-the-intersection-of-design-ai-and-design-engineering",
-    uid: "blog-2",
-  },
-  {
-    title: "What I learned from my first year of freelancing",
-    description:
-      "A look back at my first year of freelancing and what I learned",
-    link: "/blog/exploring-the-intersection-of-design-ai-and-design-engineering",
-    uid: "blog-3",
-  },
-  {
-    title: "How to Export Metadata from MDX for Next.js SEO",
-    description:
-      "A guide on exporting metadata from MDX files to leverage Next.js SEO features.",
-    link: "/blog/example-mdx-metadata",
-    uid: "blog-4",
   },
 ];
 

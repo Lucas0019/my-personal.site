@@ -10,12 +10,12 @@ import { Magnetic } from "@/components/ui/magnetic";
 //   MorphingDialogClose,
 //   MorphingDialogContainer,
 // } from "@/components/ui/morphing-dialog";
-// import Link from "next/link";
-// import { AnimatedBackground } from "@/components/ui/animated-background";
+import Link from "next/link";
+import { AnimatedBackground } from "@/components/ui/animated-background";
 import {
   // PROJECTS,
   WORK_EXPERIENCE,
-  // BLOG_POSTS,
+  BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
 } from "./data";
@@ -136,9 +136,18 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex-1">
+          <h4>
+            Olá! Eu sou Lucas,
+            <br />
+            um desenvolvedor front-end que adora criar experiências digitais
+            incríveis.
+          </h4>
+          <br />
           <p className="text-zinc-600 dark:text-zinc-400">
-            Building scalable and performant web applications. Bridging design
-            and development with clean, maintainable code.
+            Construindo aplicações web escaláveis e de alta performance.
+            Conectando design e desenvolvimento com código limpo e de fácil
+            manutenção, sempre buscando aprender novas tecnologias e aprimorar
+            minhas habilidades.
           </p>
         </div>
       </motion.section>
@@ -178,7 +187,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
+        <h3 className="mb-5 text-lg font-medium">Experiência Profissional</h3>
         <div className="flex flex-col space-y-2">
           {WORK_EXPERIENCE.map((job) => (
             <a
@@ -213,7 +222,7 @@ export default function Personal() {
       </motion.section>
 
       {/* Blog section */}
-      {/* 
+
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
@@ -248,15 +257,15 @@ export default function Personal() {
             ))}
           </AnimatedBackground>
         </div>
-      </motion.section> */}
+      </motion.section>
 
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Connect</h3>
+        <h3 className="mb-5 text-lg font-medium">Conectar</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to contact me at{" "}
+          Você pode entrar em contato comigo pelo seguinte endereço.{" "}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>
