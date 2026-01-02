@@ -12,16 +12,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nim-fawn.vercel.app/"),
+  metadataBase: new URL("https://olucasxavier.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   title: {
-    default: "Nim - Personal website template",
-    template: "%s | Nim",
+    default: "Lucas Xavier - Personal website template",
+    template: "%s | Lucas Xavier - Personal website template",
   },
   description:
-    "Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.",
+    "Lucas Xavier is a personal website template built with Next.js 15, React 19 and Motion-Primitives.",
 };
 
 const geist = Geist({

@@ -49,28 +49,28 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: "Reglazed Studio",
-    title: "CEO",
+    company: "Keyrus",
+    title: "Front-end Developer Pleno",
     start: "2024",
     end: "Present",
-    link: "https://ibelick.com",
-    id: "work1",
+    link: "https://olucasxavier.vercel.app/",
+    id: "work3",
   },
   {
-    company: "Freelance",
-    title: "Design Engineer",
+    company: "Codeby, Keyrus Company",
+    title: "Front-end Developer Pleno",
     start: "2022",
     end: "2024",
-    link: "https://ibelick.com",
+    link: "https://olucasxavier.vercel.app/",
     id: "work2",
   },
   {
-    company: "Freelance",
+    company: "Codeby",
     title: "Front-end Developer",
-    start: "2017",
-    end: "Present",
-    link: "https://ibelick.com",
-    id: "work3",
+    start: "2021",
+    end: "2022",
+    link: "https://olucasxavier.vercel.app/",
+    id: "work1",
   },
 ];
 
@@ -107,20 +107,16 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: "Github",
-    link: "https://github.com/ibelick",
-  },
-  {
-    label: "Twitter",
-    link: "https://twitter.com/ibelick",
+    link: "https://github.com/Lucas0019",
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/ibelick",
-  },
-  {
-    label: "Instagram",
-    link: "https://www.instagram.com/ibelick",
+    link: "https://www.linkedin.com/in/olucasxavier/",
   },
 ];
 
-export const EMAIL = "your@email.com";
+export const EMAIL = "olucasxavier@duck.com";
+export const SITE_URL = "https://olucasxavier.vercel.app/";
+export const SITE_NAME = "Lucas Xavier";
+export const SITE_DESCRIPTION =
+  "Lucas Xavier is a personal website template built with Next.js 15, React 19 and Motion-Primitives.";
