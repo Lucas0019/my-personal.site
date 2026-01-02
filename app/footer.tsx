@@ -77,10 +77,11 @@ export function Footer() {
         >
           <TextLoop className="text-xs text-zinc-500">
             <span>
-              ©{new Date().getFullYear()} {""}
+              Alguns direitos reservados. ©{new Date().getFullYear()} {""}
               Lucas Xavier.
             </span>
-            <span>Built with Next.js 15, React 19 and Motion-Primitives.</span>
+            <span>Desenvolvido com Next.js e Tailwind CSS.</span>
+            <span>Hosted on Vercel.</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">
