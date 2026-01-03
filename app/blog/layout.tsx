@@ -1,6 +1,7 @@
 "use client";
 import { TextMorph } from "@/components/ui/text-morph";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
+import { MoveLeft } from "lucide-react";
 
 function BackButton() {
   return (
@@ -11,7 +12,8 @@ function BackButton() {
       className="font-base flex items-center gap-1 text-center text-sm text-zinc-500 transition-colors dark:text-zinc-400 cursor-pointer hover:text-zinc-900 dark:hover:text-zinc-100"
       type="button"
     >
-      <TextMorph>Go Back</TextMorph>
+      <MoveLeft size={16} />
+      <TextMorph>Voltar</TextMorph>
     </button>
   );
 }

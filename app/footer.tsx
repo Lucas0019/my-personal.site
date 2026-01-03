@@ -53,7 +53,7 @@ function ThemeSwitch() {
         return (
           <button
             key={theme.id}
-            className="inline-flex h-7 w-7 items-center justify-center text-zinc-500 transition-colors duration-100 focus-visible:outline-2 data-[checked=true]:text-zinc-950 dark:text-zinc-400 dark:data-[checked=true]:text-zinc-50"
+            className="inline-flex h-7 w-7 items-center justify-center text-zinc-500 transition-colors duration-100 focus-visible:outline-2 data-[checked=true]:text-zinc-950 dark:text-zinc-400 dark:data-[checked=true]:text-zinc-50 cursor-pointer pointer-events-auto"
             type="button"
             aria-label={`Switch to ${theme.label} theme`}
             data-id={theme.id}
@@ -77,11 +77,9 @@ export function Footer() {
         >
           <TextLoop className="text-xs text-zinc-500">
             <span>
-              Alguns direitos reservados. ©{new Date().getFullYear()} {""}
-              Lucas Xavier.
+              ©{new Date().getFullYear()} {""} Alguns direitos reservados.
             </span>
             <span>Desenvolvido com Next.js e Tailwind CSS.</span>
-            <span>Hosted on Vercel.</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">

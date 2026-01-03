@@ -76,7 +76,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: "Piloto",
+    title: "#00 Piloto",
     description: "O começo de uma nova jornada, explorando o desconhecido.",
     link: "/blog/piloto",
     uid: "blog-1",
