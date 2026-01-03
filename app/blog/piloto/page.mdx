@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "#01 Piloto",
+  title: "#00 Piloto",
   description:
     "Todo projeto começa com uma pergunta. Este blog nasce como um espaço para refletir, aprender e evoluir através do código.",
   authors: [{ name: "Lucas Xavier" }],
@@ -8,13 +8,18 @@ export const metadata = {
   },
 };
 
-<Cover
-  src="/media/banner-piloto.webp"
-  alt="Image from the movie Alien - from cosmos.com"
-  caption="Photo by Josh Hild on Unsplash"
-/>
+<figure className="w-full">
+  <img
+    src="/media/banner-piloto.webp"
+    alt="Image from the movie Alien - from cosmos.com"
+    className="block w-full h-60 md:h-96 object-cover"
+  />
+  <figcaption className="mt-2 text-center text-sm text-muted-foreground">
+    Photo by Josh Hild on Unsplash
+  </figcaption>
+</figure>
 
-# #01 Piloto
+# #00 Piloto
 
 Todo projeto começa simples.  
 Uma ideia vaga.  
