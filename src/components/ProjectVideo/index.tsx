@@ -7,7 +7,7 @@ import {
   MorphingDialogContent,
   MorphingDialogClose,
   MorphingDialogContainer,
-} from "@/components/ui/morphing-dialog";
+} from "@/src/components/ui/morphing-dialog";
 
 type ProjectVideoProps = {
   src: string;

@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
-import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/lib/constants";
-import { AnimatedBackground } from "@/components/ui/animated-background";
-import { BLOG_POSTS } from "@/app/data";
+import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/src/lib/constants";
+import { AnimatedBackground } from "@/src/components/ui/animated-background";
+import { BLOG_POSTS } from "@/src/app/data";
 import Link from "next/link";
 
 export const BlogList = () => {

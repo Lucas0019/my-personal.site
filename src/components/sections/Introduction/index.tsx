@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/lib/constants";
+import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/src/lib/constants";
 
 export const Introduction = () => {
   return (

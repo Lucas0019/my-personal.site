@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
-import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/lib/constants";
-import { EMAIL, SOCIAL_LINKS } from "@/app/data";
-import { MagneticSocialLink } from "@/components/MagneticSocialLink";
+import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/src/lib/constants";
+import { EMAIL, SOCIAL_LINKS } from "@/src/app/data";
+import { MagneticSocialLink } from "@/src/components/MagneticSocialLink";
 
 export const Contact = () => {
   return (

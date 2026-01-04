@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
-import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/lib/constants";
-import { PROJECTS } from "@/app/data";
-import { ProjectVideo } from "@/components/ProjectVideo";
+import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/src/lib/constants";
+import { PROJECTS } from "@/src/app/data";
+import { ProjectVideo } from "@/src/components/ProjectVideo";
 
 export const SelectedCases = () => {
   return (

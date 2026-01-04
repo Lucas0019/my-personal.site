@@ -1,6 +1,9 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
-import { cn } from "@/lib/utils";
+
+import { cn } from "@/src/lib/utils";
 import { AnimatePresence, Transition, motion } from "motion/react";
 import {
   Children,
@@ -85,7 +88,7 @@ export function AnimatedBackground({
           )}
         </AnimatePresence>
         <div className="z-10">{child.props.children}</div>
-      </>,
+      </>
     );
   });
 }
