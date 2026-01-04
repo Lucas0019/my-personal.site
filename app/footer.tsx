@@ -79,7 +79,7 @@ export function Footer() {
             <span>
               ©{new Date().getFullYear()} {""} Alguns direitos reservados.
             </span>
-            <span>Desenvolvido com Next.js e Tailwind CSS.</span>
+            <span>Por Lucas Xavier.</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">

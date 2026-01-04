@@ -50,9 +50,9 @@ export const PROJECTS: Project[] = [
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: "Keyrus",
-    title: "Frontend Developer Pleno",
+    title: "Software Developer Pleno",
     start: "2024",
-    end: "Present",
+    end: "Presente",
     link: "https://olucasxavier.vercel.app/",
     id: "work3",
   },
