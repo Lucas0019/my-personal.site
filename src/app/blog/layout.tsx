@@ -1,6 +1,6 @@
 "use client";
-import { TextMorph } from "@/components/ui/text-morph";
-import { ScrollProgress } from "@/components/ui/scroll-progress";
+import { TextMorph } from "@/src/components/ui/text-morph";
+import { ScrollProgress } from "@/src/components/ui/scroll-progress";
 import { MoveLeft } from "lucide-react";
 
 function BackButton() {

@@ -1,6 +1,6 @@
 "use client";
-import { AnimatedBackground } from "@/components/ui/animated-background";
-import { TextLoop } from "@/components/ui/text-loop";
+import { AnimatedBackground } from "@/src/components/ui/animated-background";
+import { TextLoop } from "@/src/components/ui/text-loop";
 import { MonitorIcon, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
@@ -79,7 +79,7 @@ export function Footer() {
             <span>
               ©{new Date().getFullYear()} {""} Alguns direitos reservados.
             </span>
-            <span>Desenvolvido com Next.js e Tailwind CSS.</span>
+            <span>Por Lucas Xavier.</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">
