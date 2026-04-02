@@ -1,33 +1,6 @@
-type Project = {
-  name: string;
-  description: string;
-  link: string;
-  video: string;
-  id: string;
-};
+import type * as T from "./types";
 
-type WorkExperience = {
-  company: string;
-  title: string;
-  start: string;
-  end: string;
-  link: string;
-  id: string;
-};
-
-type BlogPost = {
-  title: string;
-  description: string;
-  link: string;
-  uid: string;
-};
-
-type SocialLink = {
-  label: string;
-  link: string;
-};
-
-export const PROJECTS: Project[] = [
+export const PROJECTS: T.ProjectProps[] = [
   {
     name: "Motion Primitives Pro",
     description:
@@ -47,7 +20,7 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-export const WORK_EXPERIENCE: WorkExperience[] = [
+export const WORK_EXPERIENCE: T.WorkExperienceProps[] = [
   {
     company: "Keyrus",
     title: "Software Developer Pleno",
@@ -74,7 +47,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ];
 
-export const BLOG_POSTS: BlogPost[] = [
+export const BLOG_POSTS: T.BlogPostProps[] = [
   {
     title: "#00 Piloto",
     description: "O começo de uma nova jornada, explorando o desconhecido.",
@@ -83,11 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 ];
 
-export const SOCIAL_LINKS: SocialLink[] = [
-  {
-    label: "Github",
-    link: "https://github.com/Lucas0019",
-  },
+export const SOCIAL_LINKS: T.SocialLinkProps[] = [
   {
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/olucasxavier/",
