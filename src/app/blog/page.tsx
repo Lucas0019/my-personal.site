@@ -3,7 +3,7 @@ import { PageLayout } from "@/src/components/PageLayout";
 import Link from "next/link";
 
 // Mock de posts
-export const posts = [
+const posts = [
   {
     slug: "piloto",
     index: "00",
@@ -59,11 +59,6 @@ function groupByYear(posts: any[]) {
     {} as Record<number, any[]>,
   );
 }
-
-export const metadata = {
-  title: "Blog",
-  description: "Registro contínuo de aprendizados e evolução técnica.",
-};
 
 export default function BlogPage() {
   const postsByYear = groupByYear(posts);
