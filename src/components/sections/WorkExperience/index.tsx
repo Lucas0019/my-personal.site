@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { TRANSITION_SECTION, VARIANTS_SECTION } from "@/src/lib/constants";
-import { WORK_EXPERIENCE } from "@/src/app/data";
+import { WORK_EXPERIENCE } from "@/src/data/data";
 import { Spotlight } from "@/src/components/ui/spotlight";
 
 export const WorkExperience = () => {
