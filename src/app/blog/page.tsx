@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Link from "next/link";
 import { PageLayout } from "@/src/components/PageLayout";
+import Link from "next/link";
 
 // Mock de posts
 export const posts = [
@@ -49,7 +49,7 @@ export const posts = [
 ];
 
 // Agrupa posts por ano
-export function groupByYear(posts: any[]) {
+function groupByYear(posts: any[]) {
   return posts.reduce(
     (acc, post) => {
       acc[post.year] = acc[post.year] || [];
